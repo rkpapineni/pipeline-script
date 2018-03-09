@@ -1,6 +1,6 @@
 def projectName="JenkinsRepo From GitHub"
 
-properties([parameters([string(defaultValue: 'https://github.com/rkpapineni/JenkinsRepo.git', description: 'Enter URL of the project to be built:', name: 'URL', trim: false)])])
+properties([parameters([string(defaultValue: 'https://github.com/rkpapineni/JenkinsRepo.git', description: 'Enter URL of the project to be built:', name: 'PROJECT_SCM_URL', trim: false)])])
 
     
 node {
